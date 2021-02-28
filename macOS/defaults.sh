@@ -98,12 +98,6 @@ function configure_finder() {
 }
 
 function configure_app_store() {
-    # Check for software updates daily, not just once per week
-    defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-
-    # Download newly available updates in background
-    defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
-
     # Install System data files & security updates
     defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 }
