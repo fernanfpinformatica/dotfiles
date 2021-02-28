@@ -1,8 +1,8 @@
 ############################################################################
 # Environment Variables
 ############################################################################
-set --global --export GIT_GLOBAL_NAME  "Marina Aisa"
-set --global --export GIT_GLOBAL_EMAIL "marina@marinaaisa.com"
+set --global --export GIT_GLOBAL_NAME  "Fernando Arias"
+set --global --export GIT_GLOBAL_EMAIL "contact@ferarias.dev"
 set --global --export GIT_AUTHOR_NAME     $GIT_GLOBAL_NAME
 set --global --export GIT_COMMITTER_NAME  $GIT_GLOBAL_NAME
 set --global --export GIT_AUTHOR_EMAIL    $GIT_GLOBAL_EMAIL
