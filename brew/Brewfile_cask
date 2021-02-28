@@ -3,6 +3,8 @@ cask "spotify"
 cask "visual-studio-code"
 cask "iterm2"
 cask "notion"
+cask "gitkraken"
+cask "gitahead"
 
 ##################### Install Manually #####################
 
