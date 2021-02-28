@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOTFILE_REPO_GITHUB_LINK=https://raw.githubusercontent.com/marinaaisa/dotfiles/master
+DOTFILE_REPO_GITHUB_LINK=https://raw.githubusercontent.com/fernanfpinformatica/dotfiles/master
 DOTFILES_REPO=~/dotfiles
 
 main() {
@@ -58,7 +58,7 @@ function clone_dotfiles_repo() {
         pull_latest $DOTFILES_REPO
         success "Pull successful in ${DOTFILES_REPO} repository"
     else
-        url=https://github.com/marinaaisa/dotfiles.git
+        url=https://github.com/fernanfpinformatica/dotfiles.git
         if git clone "$url" $DOTFILES_REPO; then
             success "Cloned into ${DOTFILES_REPO}"
         else
