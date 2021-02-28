@@ -13,6 +13,9 @@ function install_extensions() {
         # Typescript
         code --install-extension loiane.ts-extension-pack
         
+        # Keybindings
+        code --install-extension k--kato.intellij-idea-keybindings
+        
         # Utils
         code --install-extension streetsidesoftware.code-spell-checker
         code --install-extension cssho.vscode-svgviewer
@@ -21,6 +24,7 @@ function install_extensions() {
         code --install-extension zainchen.json
         code --install-extension pflannery.vscode-versionlens
         code --install-extension yzhang.markdown-all-in-one
+        
         # Theme
         code --install-extension dracula-theme.theme-dracula
         code --install-extension pkief.material-icon-theme
