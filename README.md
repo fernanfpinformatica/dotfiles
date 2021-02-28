@@ -6,6 +6,6 @@ Personal dotfiles to sync MacOS configurations across macbooks.
 ## Installing / Getting started
 
 ```shell
-    curl --silent https://raw.githubusercontent.com/marinaaisa/dotfiles/master/bootstrap.sh | bash
+    curl --silent https://raw.githubusercontent.com/fernanfpinformatica/dotfiles/master/bootstrap.sh | bash
 ```
 
