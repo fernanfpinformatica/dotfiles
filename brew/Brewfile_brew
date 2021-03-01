@@ -1,5 +1,6 @@
 brew "fish"
 brew "git"
+brew "gh"
 brew "nvm"
 brew "mas"
 brew "yarn"
