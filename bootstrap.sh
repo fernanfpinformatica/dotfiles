@@ -163,8 +163,6 @@ function change_shell_to_fish() {
 function setup_symlinks() {
     info "Setting up symlinks"
 
-    symlink "git"           ${DOTFILES_REPO}/git/config                 ~/.gitconfig
-
     symlink "fish:functions"   ${DOTFILES_REPO}/fish/functions    ~/.config/fish/functions
     symlink "fish:config.fish" ${DOTFILES_REPO}/fish/config.fish  ~/.config/fish/config.fish
     symlink "fish:plugins"     ${DOTFILES_REPO}/fish/plugins      ~/.config/fish/fish_plugins
