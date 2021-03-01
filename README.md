@@ -26,4 +26,3 @@ Personal dotfiles to sync MacOS configurations across macbooks.
 ## Future work
 - Sync Git configuration using predefined .gitconfig files
 - Add functions to integrate [fzf](https://github.com/junegunn/fzf) with Git, VSCode, LastPass and more: [fzf fish examples](https://github.com/junegunn/fzf/wiki/Examples-(fish))
-- Disable chime startup sound. Configuring ```com.apple.loginwindow LoginHook``` and ```com.apple.loginwindow LogoutHook``` does not work. [Try this](https://www.idownloadblog.com/2020/02/24/enable-mac-startup-chime-tutorial/).

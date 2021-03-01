@@ -16,6 +16,7 @@ function configure_system() {
     # Disable macOS startup chime sound
     sudo defaults write com.apple.loginwindow LoginHook $LOGIN_HOOK_PATH
     sudo defaults write com.apple.loginwindow LogoutHook $LOGOUT_HOOK_PATH
+    command sudo nvram StartupMute=%01 # https://www.idownloadblog.com/2020/02/24/enable-mac-startup-chime-tutorial/
     # Configure keyboard repeat https://apple.stackexchange.com/a/83923/200178
     defaults write -g InitialKeyRepeat -int 15
     defaults write -g KeyRepeat -int 2
