@@ -70,7 +70,7 @@
   "jsAutolint.defaultLinters": ["eslint", "standard"],
   "jsAutolint.enable": true,
   "typescript.check.npmIsInstalled": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "prettier.singleQuote": true,
   "javascript.format.enable": false,
   "markdown.preview.scrollEditorWithPreview": false,
