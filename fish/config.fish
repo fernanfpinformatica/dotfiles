@@ -16,6 +16,8 @@ set --global --export LC_ALL es_ES.UTF-8 # Set locale
 set --global --export LANG es_ES.UTF-8   # Set locale
 set --global --export BAT_THEME          Dracula
 
+set --universal FZF_DEFAULT_COMMAND 'fd' # Set up fzf to use the amazingly fast fd [https://github.com/sharkdp/fd]
+
 ############################################################################
 # PATH setup
 ############################################################################
