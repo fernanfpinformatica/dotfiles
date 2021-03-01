@@ -1,6 +1,7 @@
 ############################################################################
 # Environment Variables
 ############################################################################
+set --global --export DOTFILES_REPO $HOME/dotfiles
 set --global --export GIT_GLOBAL_NAME  "Fernando Arias"
 set --global --export GIT_GLOBAL_EMAIL "contact@ferarias.dev"
 set --global --export GIT_AUTHOR_NAME     $GIT_GLOBAL_NAME
