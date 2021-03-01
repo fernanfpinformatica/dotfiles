@@ -12,7 +12,6 @@ main() {
     # To manage packages
     install_homebrew
     install_packages_with_brewfile
-    install_nodejs_lts_version
     change_shell_to_fish
     setup_symlinks
     update_hosts_file
@@ -128,20 +127,6 @@ function install_packages_with_brewfile() {
             fi
         else
             error "Brewfile_tap installation failed"
-            exit 1
-        fi
-    fi
-}
-
-function install_nodejs_lts_version() {
-    info "Installing NodeJS LTS version. Requires NVM previously installed."
-    if hash node 2>/dev/null; then
-        success "NodeJS already exists. Use nvm to install another NodeJS version if you wish."
-    else
-        if yes | nvm install --lts; then
-            success "NodeJS LTS version installation succeeded"
-        else
-            error "NodeJS LTS version installation failed"
             exit 1
         fi
     fi
