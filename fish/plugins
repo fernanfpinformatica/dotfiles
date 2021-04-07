@@ -1,4 +1,6 @@
+barnybug/docker-fish-completion     # Docker fish autocompletion
 jorgebucaran/fisher                 # Plugin manager itself
 jethrokuan/z                        # Pure-fish z directory jumping
 dracula/fish                        # Dracula theme which influences the colors of what you type
 jorgebucaran/nvm.fish               # Node.js version manager lovingly made for Fish
+edc/bass                            # Bass makes it easy to use utilities written for Bash in fish shell

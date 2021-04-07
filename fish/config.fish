@@ -1,3 +1,5 @@
+load_nvm
+
 ############################################################################
 # Environment Variables
 ############################################################################
@@ -18,6 +20,8 @@ set --global --export BAT_THEME          Dracula
 
 set --universal FZF_DEFAULT_COMMAND 'fd' # Set up fzf to use the amazingly fast fd [https://github.com/sharkdp/fd]
 
+set -U fish_user_paths /usr/local/bin $fish_user_paths
+
 ############################################################################
 # PATH setup
 ############################################################################
@@ -35,3 +39,10 @@ set --global --export fish_user_paths \
 # Init Starship
 ############################################################################
 source $DOTFILES_REPO/starship/initializer.fish
+set -g fish_user_paths "/usr/local/opt/libpq/bin" $fish_user_paths
+
+alias api='cd ~/repos/wakingup/wakingup-api-v2/ && yarn dev:local'
+alias web='cd ~/repos/wakingup/wakingup-web/ && yarn start'
+alias web-pull='cd ~/repos/wakingup/wakingup-web/ && git pull origin develop && yarn && yarn start'
+alias cms='cd ~/repos/wakingup/wakingup-cms/ && yarn start'
+alias cms-pull='cd ~/repos/wakingup/wakingup-cms/ && git pull origin develop && yarn && yarn start'
