@@ -26,3 +26,4 @@ Personal dotfiles to sync MacOS configurations across macbooks.
 ## Future work
 - Sync Git configuration using predefined .gitconfig files
 - Add functions to integrate [fzf](https://github.com/junegunn/fzf) with Git, VSCode, LastPass and more: [fzf fish examples](https://github.com/junegunn/fzf/wiki/Examples-(fish))
+    - Take a look at [forgit](https://github.com/wfxr/forgit) to add fancy git features on the terminal
